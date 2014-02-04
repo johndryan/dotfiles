@@ -6,18 +6,38 @@ function installcask() {
 	brew cask install "${@}" 2> /dev/null
 }
 
+installcask onepassword
 installcask dropbox
+installcask evernote
 installcask google-chrome
-installcask google-chrome-canary
-installcask imagealpha
-installcask imageoptim
-installcask iterm2
-installcask macvim
-installcask miro-video-converter
+installcask omnigraffle
+installcask paparazzi
+installcask processing
+installcask sequel-pro
+installcask skype
+installcask spotify
 installcask sublime-text
-installcask the-unarchiver
-installcask tor-browser
-installcask transmission
-installcask ukelele
+installcask textmate
+installcask things
+installcask tower
+installcask transmit
 installcask virtualbox
 installcask vlc
+
+# Not-currently using ===============
+# installcask codekit
+# installcask divvy
+# installcask firefox
+# installcask xscope
+# installcask kaleidoscope
+
+# NON-CASK ==========================
+# App Store -------------------------
+# coda
+# ember
+# tweetbit
+# writer
+# xcode
+# pages, numbers, keynote, ilife apps
+# Other -----------------------------
+# Adobe Creative Cloud
