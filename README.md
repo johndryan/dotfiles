@@ -1,4 +1,12 @@
-# Mathias’s dotfiles
+# John Ryan’s dotfiles
+
+I like to keep it in `~/Projects/dotfiles`, with `~/.dotfiles` as a symlink.
+
+- - -
+
+Based on:
+
+# Based on: Mathias’s dotfiles
 
 ## Installation
 
