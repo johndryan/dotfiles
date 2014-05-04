@@ -7,8 +7,12 @@ function installcask() {
 }
 
 installcask onepassword
+installcask arduino
+installcask atom
 installcask dropbox
 installcask evernote
+installcask fission
+installcask handbrake
 installcask google-chrome
 installcask omnigraffle
 installcask paparazzi
@@ -21,6 +25,7 @@ installcask textmate
 installcask things
 installcask tower
 installcask transmit
+installcask vagrant
 installcask virtualbox
 installcask vlc
 
@@ -30,14 +35,20 @@ installcask vlc
 # installcask firefox
 # installcask xscope
 # installcask kaleidoscope
+# installcask reeder
+# installcask silverback
+# installcask xtorrent
 
 # NON-CASK ==========================
 # App Store -------------------------
 # coda
+# divvy
 # ember
-# tweetbit
+# tweetbot
 # writer
 # xcode
 # pages, numbers, keynote, ilife apps
 # Other -----------------------------
 # Adobe Creative Cloud
+# LittleSnapper
+# mountee
