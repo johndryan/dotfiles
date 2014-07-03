@@ -29,6 +29,9 @@ installcask vagrant
 installcask virtualbox
 installcask vlc
 
+installcask silverlight
+
+
 # Not-currently using ===============
 # installcask codekit
 # installcask divvy
