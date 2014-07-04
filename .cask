@@ -14,6 +14,7 @@ installcask evernote
 installcask fission
 installcask handbrake
 installcask google-chrome
+installcask kaleidoscope
 installcask omnigraffle
 installcask paparazzi
 installcask processing
@@ -37,7 +38,6 @@ installcask silverlight
 # installcask divvy
 # installcask firefox
 # installcask xscope
-# installcask kaleidoscope
 # installcask reeder
 # installcask silverback
 # installcask xtorrent
