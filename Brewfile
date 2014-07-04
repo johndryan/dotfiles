@@ -7,6 +7,11 @@ upgrade
 # Install fish shell
 install fish
 
+# Install Bash 4
+# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
+install bash
+install bash-completion
+
 # Install LAMP, etc.
 # install php55
 

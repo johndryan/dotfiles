@@ -26,11 +26,9 @@ To update, `cd` into your local `dotfiles` repository and then:
 source bootstrap.sh
 ```
 
-Alternatively, to update while avoiding the confirmation prompt:
+### Upgrading the Bash 4
 
-```bash
-set -- -f; source bootstrap.sh
-```
+After installing Bash 4 via homebrew, don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
 
 ### Specify the `$PATH`
 
