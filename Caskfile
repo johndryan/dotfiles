@@ -4,21 +4,50 @@
 install caskroom/cask/brew-cask
 tap caskroom/versions
 
+cask install onepassword 2> /dev/null
+cask install arduino 2> /dev/null
+cask install atom 2> /dev/null
 cask install dropbox 2> /dev/null
+cask install evernote 2> /dev/null
+cask install fission 2> /dev/null
+cask install handbrake 2> /dev/null
 cask install google-chrome 2> /dev/null
-cask install google-chrome-canary 2> /dev/null
-cask install imagealpha 2> /dev/null
-cask install imageoptim 2> /dev/null
-cask install iterm2 2> /dev/null
-cask install macvim 2> /dev/null
-cask install miro-video-converter 2> /dev/null
-cask install opera 2> /dev/null
-cask install opera-developer 2> /dev/null
-cask install opera-next 2> /dev/null
+cask install kaleidoscope 2> /dev/null
+cask install omnigraffle 2> /dev/null
+cask install paparazzi 2> /dev/null
+cask install processing 2> /dev/null
+cask install sequel-pro 2> /dev/null
+cask install silverlight 2> /dev/null
+cask install skype 2> /dev/null
+cask install spotify 2> /dev/null
 cask install sublime-text 2> /dev/null
-cask install the-unarchiver 2> /dev/null
-cask install torbrowser 2> /dev/null
-cask install transmission 2> /dev/null
-cask install ukelele 2> /dev/null
+cask install textmate 2> /dev/null
+cask install things 2> /dev/null
+cask install tower 2> /dev/null
+cask install transmit 2> /dev/null
+cask install vagrant 2> /dev/null
 cask install virtualbox 2> /dev/null
 cask install vlc 2> /dev/null
+
+# Not-currently using ===============
+# cask install codekit 2> /dev/null
+# cask install divvy 2> /dev/null
+# cask install firefox 2> /dev/null
+# cask install xscope 2> /dev/null
+# cask install reeder 2> /dev/null
+# cask install silverback 2> /dev/null
+# cask install xtorrent 2> /dev/null
+
+# NON-CASK ==========================
+# App Store -------------------------
+# coda
+# divvy
+# ember
+# tweetbot
+# writer
+# xcode
+# pages, numbers, keynote, ilife apps
+# Other -----------------------------
+# Adobe Creative Cloud
+# LittleSnapper
+# mountee
