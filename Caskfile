@@ -7,6 +7,7 @@ tap caskroom/versions
 cask install onepassword 2> /dev/null
 cask install arduino 2> /dev/null
 cask install atom 2> /dev/null
+cask install caffeine 2> /dev/null
 cask install dropbox 2> /dev/null
 cask install evernote 2> /dev/null
 cask install fission 2> /dev/null
