@@ -11,7 +11,7 @@ Based on "Mathias’s dotfiles":https://github.com/mathiasbynens/dotfiles
 I like to keep it in `~/Projects/dotfiles`, with `~/.dotfiles` as a symlink.
 
 ```bash
-ln -s ~/Projects/dotfiles ~/dotfiles
+ln -s ~/Projects/dotfiles ~/.dotfiles
 ```
 
 The bootstrapper script will pull in the latest version and copy the files to your home folder.
