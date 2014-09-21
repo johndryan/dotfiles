@@ -16,7 +16,8 @@ install bash-completion
 # install php55
 
 # Install python and related tools
-# install python3?
+install python
+install python3
 
 # This formula didn’t work well last time I tried it:
 #install homebrew/dupes/screen
