@@ -5,15 +5,18 @@ install caskroom/cask/brew-cask
 tap caskroom/versions
 
 cask install onepassword 2> /dev/null
+cask install adobe-creative-cloud 2> /dev/null
 cask install arduino 2> /dev/null
 cask install atom 2> /dev/null
 cask install caffeine 2> /dev/null
+cask install coda 2> /dev/null
 cask install dropbox 2> /dev/null
 cask install evernote 2> /dev/null
 cask install fission 2> /dev/null
 cask install handbrake 2> /dev/null
 cask install google-chrome 2> /dev/null
 cask install kaleidoscope 2> /dev/null
+cask install mailbox 2> /dev/null
 cask install omnigraffle 2> /dev/null
 cask install paparazzi 2> /dev/null
 cask install processing 2> /dev/null
@@ -41,7 +44,6 @@ cask install vlc 2> /dev/null
 
 # NON-CASK ==========================
 # App Store -------------------------
-# coda
 # divvy
 # ember
 # tweetbot

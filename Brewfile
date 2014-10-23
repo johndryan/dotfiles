@@ -15,9 +15,10 @@ install bash-completion
 # Install LAMP, etc.
 # install php55
 
-# Install python and related tools
+# Install python, node, and related tools
 install python
 install python3
+install node
 
 # This formula didn’t work well last time I tried it:
 #install homebrew/dupes/screen
@@ -26,6 +27,9 @@ install python3
 install git
 install tree
 install webkit2png
+
+# Install misc CLI helpers and tools
+install coda-cli
 
 # Remove outdated versions from the cellar
 cleanup
