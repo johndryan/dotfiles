@@ -19,6 +19,7 @@ install bash-completion
 install python
 install python3
 install node
+# install autoenv
 
 # This formula didn’t work well last time I tried it:
 #install homebrew/dupes/screen
@@ -30,6 +31,12 @@ install webkit2png
 
 # Install misc CLI helpers and tools
 install coda-cli
+
+# Install other tools
+# Load gems into homebrew
+install brew-gem 
+# Syncing non-dotfile stuff through DropBox
+install mackup
 
 # Remove outdated versions from the cellar
 cleanup
