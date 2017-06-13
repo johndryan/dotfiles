@@ -4,8 +4,19 @@ Based on [Mathias’s dotfiles](https://github.com/mathiasbynens/dotfiles)
 
 ![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
 
+---
 
+## Approach to Setting Up New Machine / Syncing
 
+My general approach to syncing environment/files/config across multiple machines and new setups includes:
+
+* [Dotfiles](https://github.com/johndryan/dotfiles) for environment setup, brew/cask install of apps
+* [iCloud](https://www.icloud.com) syncing of Mail/Calendars/etc.
+* Dropbox syncing of files/1Password/Transmit/etc.
+	* [Mackup](https://github.com/lra/mackup) syncs a range of apps including Coda, Tower, etc. 
+* Some apps sync via their own services (Transmit & Coda, Things) 
+
+---
 
 ## Installation
 
