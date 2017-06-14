@@ -40,7 +40,7 @@ brew cask install skype
 brew cask install spotify
 # brew cask install sublime-text
 # brew cask install textmate
-brew cask install things
+# brew cask install things
 brew cask install tower
 brew cask install transmit
 # brew cask install vagrant
@@ -74,6 +74,7 @@ echo "=========================="
 echo "                          "
 echo "  INSTALL FROM APP STORE: "
 echo "- Xcode"
+echo "- Things"
 echo "- IA Writer"
 echo "- Tweetbot"
 echo "- Divvy"
