@@ -22,16 +22,16 @@ My general approach to syncing environment/files/config across multiple machines
 
 ### Using Git and the bootstrap script
 
-I like to keep it in `~/Projects/dotfiles`, with `~/.dotfiles` as a symlink.
+I like to keep it in `~/Documents/Projects/dotfiles`, with `~/.dotfiles` as a symlink.
 
 ```bash
-ln -s ~/Projects/dotfiles ~/.dotfiles
+ln -s ~/Documents/Projects/dotfiles ~/.dotfiles
 ```
 
 The bootstrapper script will pull in the latest version and copy the files to your home folder.
 
 ```bash
-git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles && source bootstrap.sh
+git clone https://github.com/johndryan/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
 
 To update, `cd` into your local `dotfiles` repository and then:
