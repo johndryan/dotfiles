@@ -29,6 +29,7 @@ brew cask install google-chrome
 brew cask install handbrake
 # brew cask install imageoptim
 brew cask install kaleidoscope
+# brew cask install microsoft-office
 brew cask install omnigraffle
 # brew cask install paparazzi
 brew cask install paintcode
@@ -58,9 +59,6 @@ brew cask install transmit
 # pages, numbers, keynote, ilife apps
 # Other -----------------------------
 # Adobe Creative Cloud
-# LittleSnapper
-# mountee
-
 
 # Remove outdated versions from the cellar.
 brew cleanup
