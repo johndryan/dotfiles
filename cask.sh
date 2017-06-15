@@ -9,7 +9,7 @@ brew upgrade
 # Install cask
 brew install caskroom/cask/brew-cask
 
-brew cask install onepassword
+brew cask install 1password
 brew cask install adobe-creative-cloud
 brew cask install appzapper
 brew cask install arduino
