@@ -140,6 +140,7 @@
 	# Enable an experimental heuristic that shifts the hunk boundary in an
 	# attempt to make the resulting patch easier to read.
 	indentHeuristic = true
+	tool = Kaleidoscope
 
 [diff "bin"]
 
@@ -155,6 +156,21 @@
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+	tool = Kaleidoscope
+
+[mergetool]
+	keepBackup = true
+	prompt = false
+	
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+	
+[difftool]
+	prompt = false
+	
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
 
 [push]
 
